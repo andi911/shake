@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9C085371AF7707400E73618 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C085361AF7707400E73618 /* main.m */; };
+		D9C0853A1AF7707400E73618 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C085391AF7707400E73618 /* AppDelegate.m */; };
+		D9C0853D1AF7707400E73618 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C0853C1AF7707400E73618 /* ViewController.m */; };
+		D9C085401AF7707400E73618 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C0853E1AF7707400E73618 /* Main.storyboard */; };
+		D9C085421AF7707400E73618 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C085411AF7707400E73618 /* Images.xcassets */; };
+		D9C085451AF7707400E73618 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9C085431AF7707400E73618 /* LaunchScreen.xib */; };
+		D9C085511AF7707400E73618 /* ShakingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C085501AF7707400E73618 /* ShakingTests.m */; };
+		D9C0855B1AF7724600E73618 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C0855A1AF7724600E73618 /* UIKit.framework */; };
+		D9C0855D1AF7724E00E73618 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C0855C1AF7724E00E73618 /* Foundation.framework */; };
+		D9C0855F1AF7725600E73618 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C0855E1AF7725600E73618 /* AVFoundation.framework */; };
+		D9C085621AF772B000E73618 /* UIButton+XHButtonTitlePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C085611AF772B000E73618 /* UIButton+XHButtonTitlePosition.m */; };
+		D9C0856D1AF7755400E73618 /* Shake_icon_music@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9C085631AF7755400E73618 /* Shake_icon_music@2x.png */; };
+		D9C0856E1AF7755400E73618 /* Shake_icon_musicHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9C085641AF7755400E73618 /* Shake_icon_musicHL@2x.png */; };
+		D9C0856F1AF7755400E73618 /* Shake_icon_people@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9C085651AF7755400E73618 /* Shake_icon_people@2x.png */; };
+		D9C085701AF7755400E73618 /* Shake_icon_peopleHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9C085661AF7755400E73618 /* Shake_icon_peopleHL@2x.png */; };
+		D9C085711AF7755400E73618 /* Shake_Line_Down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9C085671AF7755400E73618 /* Shake_Line_Down@2x.png */; };
+		D9C085721AF7755400E73618 /* Shake_Line_Up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9C085681AF7755400E73618 /* Shake_Line_Up@2x.png */; };
+		D9C085731AF7755400E73618 /* Shake_Logo_Female_Down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9C085691AF7755400E73618 /* Shake_Logo_Female_Down@2x.png */; };
+		D9C085741AF7755400E73618 /* Shake_Logo_Female_Up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9C0856A1AF7755400E73618 /* Shake_Logo_Female_Up@2x.png */; };
+		D9C085751AF7755400E73618 /* Shake_Logo_Down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9C0856B1AF7755400E73618 /* Shake_Logo_Down@2x.png */; };
+		D9C085761AF7755400E73618 /* Shake_Logo_Up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9C0856C1AF7755400E73618 /* Shake_Logo_Up@2x.png */; };
+		D9C085781AF7756D00E73618 /* shake_sound_male.wav in Resources */ = {isa = PBXBuildFile; fileRef = D9C085771AF7756D00E73618 /* shake_sound_male.wav */; };
+		D9C0857A1AF775CF00E73618 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D9C085791AF775CF00E73618 /* 1.png */; };
+		D9C0857C1AF7773900E73618 /* AlbumHeaderBackgrounImage@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9C0857B1AF7773900E73618 /* AlbumHeaderBackgrounImage@2x.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9C0854B1AF7707400E73618 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9C085291AF7707400E73618 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9C085301AF7707400E73618;
+			remoteInfo = Shaking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9C085311AF7707400E73618 /* Shaking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shaking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C085351AF7707400E73618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9C085361AF7707400E73618 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9C085381AF7707400E73618 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9C085391AF7707400E73618 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9C0853B1AF7707400E73618 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D9C0853C1AF7707400E73618 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D9C0853F1AF7707400E73618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9C085411AF7707400E73618 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D9C085441AF7707400E73618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D9C0854A1AF7707400E73618 /* ShakingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C0854F1AF7707400E73618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9C085501AF7707400E73618 /* ShakingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShakingTests.m; sourceTree = "<group>"; };
+		D9C0855A1AF7724600E73618 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D9C0855C1AF7724E00E73618 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D9C0855E1AF7725600E73618 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D9C085601AF772B000E73618 /* UIButton+XHButtonTitlePosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+XHButtonTitlePosition.h"; sourceTree = "<group>"; };
+		D9C085611AF772B000E73618 /* UIButton+XHButtonTitlePosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+XHButtonTitlePosition.m"; sourceTree = "<group>"; };
+		D9C085631AF7755400E73618 /* Shake_icon_music@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shake_icon_music@2x.png"; sourceTree = "<group>"; };
+		D9C085641AF7755400E73618 /* Shake_icon_musicHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shake_icon_musicHL@2x.png"; sourceTree = "<group>"; };
+		D9C085651AF7755400E73618 /* Shake_icon_people@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shake_icon_people@2x.png"; sourceTree = "<group>"; };
+		D9C085661AF7755400E73618 /* Shake_icon_peopleHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shake_icon_peopleHL@2x.png"; sourceTree = "<group>"; };
+		D9C085671AF7755400E73618 /* Shake_Line_Down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shake_Line_Down@2x.png"; sourceTree = "<group>"; };
+		D9C085681AF7755400E73618 /* Shake_Line_Up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shake_Line_Up@2x.png"; sourceTree = "<group>"; };
+		D9C085691AF7755400E73618 /* Shake_Logo_Female_Down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shake_Logo_Female_Down@2x.png"; sourceTree = "<group>"; };
+		D9C0856A1AF7755400E73618 /* Shake_Logo_Female_Up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shake_Logo_Female_Up@2x.png"; sourceTree = "<group>"; };
+		D9C0856B1AF7755400E73618 /* Shake_Logo_Down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shake_Logo_Down@2x.png"; sourceTree = "<group>"; };
+		D9C0856C1AF7755400E73618 /* Shake_Logo_Up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shake_Logo_Up@2x.png"; sourceTree = "<group>"; };
+		D9C085771AF7756D00E73618 /* shake_sound_male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shake_sound_male.wav; sourceTree = "<group>"; };
+		D9C085791AF775CF00E73618 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		D9C0857B1AF7773900E73618 /* AlbumHeaderBackgrounImage@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "AlbumHeaderBackgrounImage@2x.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9C0852E1AF7707400E73618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C0855F1AF7725600E73618 /* AVFoundation.framework in Frameworks */,
+				D9C0855D1AF7724E00E73618 /* Foundation.framework in Frameworks */,
+				D9C0855B1AF7724600E73618 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C085471AF7707400E73618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9C085281AF7707400E73618 = {
+			isa = PBXGroup;
+			children = (
+				D9C0855E1AF7725600E73618 /* AVFoundation.framework */,
+				D9C0855C1AF7724E00E73618 /* Foundation.framework */,
+				D9C0855A1AF7724600E73618 /* UIKit.framework */,
+				D9C085331AF7707400E73618 /* Shaking */,
+				D9C0854D1AF7707400E73618 /* ShakingTests */,
+				D9C085321AF7707400E73618 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9C085321AF7707400E73618 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9C085311AF7707400E73618 /* Shaking.app */,
+				D9C0854A1AF7707400E73618 /* ShakingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9C085331AF7707400E73618 /* Shaking */ = {
+			isa = PBXGroup;
+			children = (
+				D9C085381AF7707400E73618 /* AppDelegate.h */,
+				D9C085391AF7707400E73618 /* AppDelegate.m */,
+				D9C0853B1AF7707400E73618 /* ViewController.h */,
+				D9C0853C1AF7707400E73618 /* ViewController.m */,
+				D9C085601AF772B000E73618 /* UIButton+XHButtonTitlePosition.h */,
+				D9C085611AF772B000E73618 /* UIButton+XHButtonTitlePosition.m */,
+				D9C0853E1AF7707400E73618 /* Main.storyboard */,
+				D9C085411AF7707400E73618 /* Images.xcassets */,
+				D9C085431AF7707400E73618 /* LaunchScreen.xib */,
+				D9C0857B1AF7773900E73618 /* AlbumHeaderBackgrounImage@2x.jpg */,
+				D9C085791AF775CF00E73618 /* 1.png */,
+				D9C085631AF7755400E73618 /* Shake_icon_music@2x.png */,
+				D9C085641AF7755400E73618 /* Shake_icon_musicHL@2x.png */,
+				D9C085651AF7755400E73618 /* Shake_icon_people@2x.png */,
+				D9C085661AF7755400E73618 /* Shake_icon_peopleHL@2x.png */,
+				D9C085671AF7755400E73618 /* Shake_Line_Down@2x.png */,
+				D9C085681AF7755400E73618 /* Shake_Line_Up@2x.png */,
+				D9C085691AF7755400E73618 /* Shake_Logo_Female_Down@2x.png */,
+				D9C0856A1AF7755400E73618 /* Shake_Logo_Female_Up@2x.png */,
+				D9C0856B1AF7755400E73618 /* Shake_Logo_Down@2x.png */,
+				D9C0856C1AF7755400E73618 /* Shake_Logo_Up@2x.png */,
+				D9C085771AF7756D00E73618 /* shake_sound_male.wav */,
+				D9C085341AF7707400E73618 /* Supporting Files */,
+			);
+			path = Shaking;
+			sourceTree = "<group>";
+		};
+		D9C085341AF7707400E73618 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9C085351AF7707400E73618 /* Info.plist */,
+				D9C085361AF7707400E73618 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9C0854D1AF7707400E73618 /* ShakingTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9C085501AF7707400E73618 /* ShakingTests.m */,
+				D9C0854E1AF7707400E73618 /* Supporting Files */,
+			);
+			path = ShakingTests;
+			sourceTree = "<group>";
+		};
+		D9C0854E1AF7707400E73618 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9C0854F1AF7707400E73618 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9C085301AF7707400E73618 /* Shaking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9C085541AF7707400E73618 /* Build configuration list for PBXNativeTarget "Shaking" */;
+			buildPhases = (
+				D9C0852D1AF7707400E73618 /* Sources */,
+				D9C0852E1AF7707400E73618 /* Frameworks */,
+				D9C0852F1AF7707400E73618 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shaking;
+			productName = Shaking;
+			productReference = D9C085311AF7707400E73618 /* Shaking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9C085491AF7707400E73618 /* ShakingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9C085571AF7707400E73618 /* Build configuration list for PBXNativeTarget "ShakingTests" */;
+			buildPhases = (
+				D9C085461AF7707400E73618 /* Sources */,
+				D9C085471AF7707400E73618 /* Frameworks */,
+				D9C085481AF7707400E73618 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9C0854C1AF7707400E73618 /* PBXTargetDependency */,
+			);
+			name = ShakingTests;
+			productName = ShakingTests;
+			productReference = D9C0854A1AF7707400E73618 /* ShakingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9C085291AF7707400E73618 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = cheng;
+				TargetAttributes = {
+					D9C085301AF7707400E73618 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					D9C085491AF7707400E73618 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = D9C085301AF7707400E73618;
+					};
+				};
+			};
+			buildConfigurationList = D9C0852C1AF7707400E73618 /* Build configuration list for PBXProject "Shaking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9C085281AF7707400E73618;
+			productRefGroup = D9C085321AF7707400E73618 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9C085301AF7707400E73618 /* Shaking */,
+				D9C085491AF7707400E73618 /* ShakingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9C0852F1AF7707400E73618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C0856D1AF7755400E73618 /* Shake_icon_music@2x.png in Resources */,
+				D9C085761AF7755400E73618 /* Shake_Logo_Up@2x.png in Resources */,
+				D9C085781AF7756D00E73618 /* shake_sound_male.wav in Resources */,
+				D9C085741AF7755400E73618 /* Shake_Logo_Female_Up@2x.png in Resources */,
+				D9C0856F1AF7755400E73618 /* Shake_icon_people@2x.png in Resources */,
+				D9C0857C1AF7773900E73618 /* AlbumHeaderBackgrounImage@2x.jpg in Resources */,
+				D9C0856E1AF7755400E73618 /* Shake_icon_musicHL@2x.png in Resources */,
+				D9C085721AF7755400E73618 /* Shake_Line_Up@2x.png in Resources */,
+				D9C085731AF7755400E73618 /* Shake_Logo_Female_Down@2x.png in Resources */,
+				D9C085401AF7707400E73618 /* Main.storyboard in Resources */,
+				D9C085451AF7707400E73618 /* LaunchScreen.xib in Resources */,
+				D9C085711AF7755400E73618 /* Shake_Line_Down@2x.png in Resources */,
+				D9C085421AF7707400E73618 /* Images.xcassets in Resources */,
+				D9C085751AF7755400E73618 /* Shake_Logo_Down@2x.png in Resources */,
+				D9C0857A1AF775CF00E73618 /* 1.png in Resources */,
+				D9C085701AF7755400E73618 /* Shake_icon_peopleHL@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C085481AF7707400E73618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9C0852D1AF7707400E73618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C0853D1AF7707400E73618 /* ViewController.m in Sources */,
+				D9C0853A1AF7707400E73618 /* AppDelegate.m in Sources */,
+				D9C085621AF772B000E73618 /* UIButton+XHButtonTitlePosition.m in Sources */,
+				D9C085371AF7707400E73618 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C085461AF7707400E73618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C085511AF7707400E73618 /* ShakingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9C0854C1AF7707400E73618 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9C085301AF7707400E73618 /* Shaking */;
+			targetProxy = D9C0854B1AF7707400E73618 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9C0853E1AF7707400E73618 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9C0853F1AF7707400E73618 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9C085431AF7707400E73618 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9C085441AF7707400E73618 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9C085521AF7707400E73618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D9C085531AF7707400E73618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9C085551AF7707400E73618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Shaking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D9C085561AF7707400E73618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Shaking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D9C085581AF7707400E73618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShakingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shaking.app/Shaking";
+			};
+			name = Debug;
+		};
+		D9C085591AF7707400E73618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShakingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shaking.app/Shaking";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9C0852C1AF7707400E73618 /* Build configuration list for PBXProject "Shaking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C085521AF7707400E73618 /* Debug */,
+				D9C085531AF7707400E73618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9C085541AF7707400E73618 /* Build configuration list for PBXNativeTarget "Shaking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C085551AF7707400E73618 /* Debug */,
+				D9C085561AF7707400E73618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9C085571AF7707400E73618 /* Build configuration list for PBXNativeTarget "ShakingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C085581AF7707400E73618 /* Debug */,
+				D9C085591AF7707400E73618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9C085291AF7707400E73618 /* Project object */;
+}
